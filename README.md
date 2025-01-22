@@ -11,18 +11,21 @@
 &emsp;&emsp;一个简单的太阳能LED模块，可以根据环境光自动控制LED的开启或关闭。
 <br>
 
-<center class ='img'>
-<img title="front" src="images/show9.jpg" width = 45%>
-<img title="rear" src="images/show10.jpg" width = 45%>
+<center>
+<figure>
+<img title="front" src="images/show9.jpg" width = 45%/>
+<img title="rear" src="images/show10.jpg" width = 45%/>
+</figure>
 </center>
 <br>
-
+<br>
 
 # 实现效果
 &emsp;&emsp;5.5V太阳能板为5.5V 0.33F超级电容充电，同时为TPS63900升降压IC供电，TPS63900对输入电压进行升压或降压，固定输出3V为LED供电。
 <br>
-
 &emsp;&emsp;LED在强光环境下(包括室内强灯光)，关闭；在弱光环境下，开启。
+<br>
+<br>
 
 # LED控制原理
 &emsp;&emsp;LED的开关由Q1的PMOS控制。由于太阳能板的特性，在面对不同光强的时候会输出变化的电压。这里将太阳能板作为光敏器件，将太阳能板电压输出接到PMOS的G极上，实现控制PMOS的开关。
@@ -31,7 +34,7 @@
 ![](images/pmos_opening_condition.png)
 <br>
 
-&emsp;&emsp;假设PMOS的VGS开启电压`-0.9V`，太阳能板输入电压范围为`0 ~ 5.5V`，S极为TPS63900输出的`3V`。则VGS的电压范围= `-3 ~ 4.6V`，产生两种情况：
+&emsp;&emsp;假设PMOS的VGS开启电压`-0.9V`，太阳能板输入电压范围为`0 ~ 5.5V`，S极为TPS63900输出的`3V`。则VGS的电压范围= `-3 ~ 2.5V`，产生两种情况：
 &emsp;
 + G极电压低于-0.9V的情况下PMOS开启，LED亮；
 + G极电压高于-0.9V的情况下PMOS关闭，LED灭。
@@ -44,6 +47,7 @@
 # 制作文档
 （待施工）
 
+<br>
 <br>
 
 # Enjoy!😎
