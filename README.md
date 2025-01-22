@@ -10,9 +10,8 @@
 # 简介
 &emsp;&emsp;一个简单的太阳能LED模块，可以根据环境光自动控制LED的开启或关闭。
 <br>
-<center class="half">
-  <img title="front" src="images/show9.jpg" width = "200"/><img title="rear" src="images/show10.jpg" width = "200"/>
-</center>
+
+<img title="front" src="images/show9.jpg" width = "300"/><img title="rear" src="images/show10.jpg" width = "300"/>
 <br>
 <br>
 
