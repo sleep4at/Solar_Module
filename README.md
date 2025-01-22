@@ -12,7 +12,7 @@
 <br>
 <center class="half">
   <img title="front" src="images/show9.jpg" width = "200"/><img title="rear" src="images/show10.jpg" width = "200"/>
-
+</center>
 <br>
 <br>
 
