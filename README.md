@@ -12,8 +12,8 @@
 <br>
 
 <figure class="half">
-  <img title="front" src="images/show9.jpg" width = 45%/>
-  <img title="rear" src="images/show10.jpg" width = 45%/>
+  <img title="front" src="images/show9.jpg" width = "45%"/>
+  <img title="rear" src="images/show10.jpg" width = "45%"/>
 </figure>
 <br>
 <br>
