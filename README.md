@@ -4,6 +4,11 @@
 >
 >`--2025.1.23--`<br>
 &emsp; epro工程文件中的Beta.1是错误的，有一个broken的Mark。Beta.2和Beta.3正常，Beta.2和Beta.3的区别在于Beta.3的超级电容是沉板放置，减少超级电容在体积上的突出，同时改善整体的重心分配，但是制作工作量和难度会增加。Beta.2会相对简单一些，但是会存在前面提到的问题。
+>
+>`--2025.3.9--`<br>
+&emsp; 更新Beta.3.1，与Beta.3相比只增加了SW1开关的OFF和ON的丝印，其他并无改动。
+<br>
+&emsp; 更新Readme.md。
 
 <br>
 
@@ -45,7 +50,8 @@
 <br>
 
 # 制作文档
-（待施工）
+在线文档：https://blog.sleepfat.top/Solar-Module-Assembly-Manual<br>
+离线文档：[Assembly_Manual.pdf (在附件中)](Assembly_Manual.pdf)
 
 <br>
 <br>
