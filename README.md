@@ -8,7 +8,7 @@
 >`--2025.3.9--`<br>
 &emsp; 更新Beta.3.1，与Beta.3相比只增加了SW1开关的OFF和ON的丝印，其他并无改动。
 <br>
-&emsp; 更新Readme.md。
+
 
 <br>
 
